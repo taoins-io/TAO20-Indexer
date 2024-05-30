@@ -1,0 +1,4 @@
+2024-05-22 17:16:55	INFO	logger/zaplogger.go:57	[initLogger] zap plugin initializing completed
+2024-05-22 17:16:55	INFO	tao20/main.go:58	server start port --> :18882
+2024-05-22 17:16:55	INFO	logger/zaplogger.go:197	/Users/able/go/src/tao20/database/gdb/db.go:44
+[error] failed to initialize database, got error dial tcp: lookup http://127.0.0.1:3306: no such host

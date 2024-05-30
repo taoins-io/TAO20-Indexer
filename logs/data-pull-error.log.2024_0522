@@ -1,0 +1,32 @@
+2024-05-22 17:16:55	ERROR	gdb/db.go:50	cannot connect to pg dial tcp: lookup http://127.0.0.1:3306: no such host
+tao/database/gdb.newDB
+	/Users/able/go/src/tao20/database/gdb/db.go:50
+tao/database/gdb.Inst.func1
+	/Users/able/go/src/tao20/database/gdb/db.go:65
+sync.(*Once).doSlow
+	/usr/local/go/src/sync/once.go:74
+sync.(*Once).Do
+	/usr/local/go/src/sync/once.go:65
+tao/database/gdb.Inst
+	/Users/able/go/src/tao20/database/gdb/db.go:64
+tao/cmd.(*Program).run
+	/Users/able/go/src/tao20/cmd/program.go:23
+tao/cmd.(*Program).Start
+	/Users/able/go/src/tao20/cmd/program.go:14
+github.com/kardianos/service.(*darwinLaunchdService).Run
+	/Users/able/go/pkg/mod/github.com/kardianos/service@v1.2.1/service_darwin.go:238
+main.main
+	/Users/able/go/src/tao20/main.go:42
+runtime.main
+	/usr/local/go/src/runtime/proc.go:267
+2024-05-22 17:16:55	PANIC	cmd/program.go:26	dial tcp: address http://127.0.0.1:6379: too many colons in address
+tao/cmd.(*Program).run
+	/Users/able/go/src/tao20/cmd/program.go:26
+tao/cmd.(*Program).Start
+	/Users/able/go/src/tao20/cmd/program.go:14
+github.com/kardianos/service.(*darwinLaunchdService).Run
+	/Users/able/go/pkg/mod/github.com/kardianos/service@v1.2.1/service_darwin.go:238
+main.main
+	/Users/able/go/src/tao20/main.go:42
+runtime.main
+	/usr/local/go/src/runtime/proc.go:267
